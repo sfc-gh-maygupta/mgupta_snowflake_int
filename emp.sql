@@ -7,7 +7,7 @@ CREATE OR REPLACE TABLE EMPLOYEE (
     FIRST_NAME STRING,             -- First Name
     LAST_NAME STRING,              -- Last Name
     DEPARTMENT STRING,             -- Department name
-    SALARY NUMBER(10,2),           -- Salary
+    SALARY NUMBER(100,2),           -- Salary
     JOIN_DATE DATE,                -- Joining date
     PRIMARY KEY (EMP_ID)
 );
